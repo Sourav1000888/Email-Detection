@@ -114,4 +114,10 @@ flowchart TD
 
 ---
 
+## Result
+   1. Training Accuracy : 99%
+   2. Testing Accuracy : 97%
+   3. Precision Accuracy : 96%
+
+
 For detailed function descriptions, code examples, and customization options, refer to the source code and inline documentation within the repository.
