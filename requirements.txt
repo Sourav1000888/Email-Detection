@@ -1,7 +1,0 @@
-streamlit
-scikit-learn
-pymupdf
-pickle
-joblib
-gensim
-
