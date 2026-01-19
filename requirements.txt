@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+pymupdf
+pickle
+joblib
+gensim
