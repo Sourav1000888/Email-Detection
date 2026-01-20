@@ -1,6 +1,0 @@
-streamlit
-scikit-learn
-pickle
-joblib
-numpy<2.0.0
-gensim
