@@ -1,7 +1,0 @@
-streamlit
-scikit-learn
-pickle
-joblib
-gensim
-
-
