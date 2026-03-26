@@ -1,47 +1,79 @@
 # Email Detection
 
-## Introduction
+## 📌 Description
 
-Email Detection is a project aimed at identifying and validating email addresses from text or data sources. This repository provides tools and scripts for detecting, extracting, and verifying email addresses using various programming techniques and libraries. The project is useful for data cleaning, validation, and automation tasks where email address integrity is crucial.
-
-## Features
-
-- Accurate detection of email addresses using regular expressions.
-- Validation of email formats to ensure compliance with standard patterns.
-- Extraction of emails from plain text, files, or data streams.
-- Support for batch processing of multiple files or datasets.
-- Easy integration with other data processing pipelines.
-- User-friendly interface for both command-line and programmatic usage.
-
-## Requirements
-
-To use the Email Detection project, ensure you have the following:
-
-- Python 3.6 or higher
-- pip (Python package installer)
-
-
-## Architecture Overview
-
-The project is structured to separate core logic from interface layers. Below is a simplified flowchart of the typical process:
-
-```mermaid
-flowchart TD
-    A[Input Data File] --> B[Extract Emails]
-    B --> C[Validate Email Formats]
-    C --> D[Output Results CSV]
-```
-
-- Input data is read from a file or text source.
-- Emails are extracted using regular expressions.
-- Each email is validated for correct format.
-- Results are written to an output file.
+This project is a Machine Learning model that classifies emails as **Spam** or **Not Spam (Ham)**.
+and uses Natural Language Processing (NLP) techniques to process and analyze email text data.
 
 ---
 
-## Result
-   1. Training Accuracy : 99%
-   2. Testing Accuracy : 97%
-   3. Precision Accuracy : 96%
+## 🚀 Features
 
+* Classifies emails into Spam or Ham
+* Text preprocessing (cleaning, tokenization)
+* Feature extraction using TF-IDF
+* Model training and evaluation
+* Simple and fast prediction system
 
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* matplotlib
+* NumPy
+* Scikit-learn
+* NLP (TF-IDF Vectorizer, nltk)
+* streamlit
+
+---
+
+## 📂 Project Structure
+
+email-spam-detection/
+│── data/
+│── svc.pkl/
+│── Email detection.ipynb
+│── app6.py
+│── requirements.txt
+│── README.md
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+   git clone https://github.com/Sourav1000888/Email-Detection
+
+2. Navigate to project folder:
+   cd email-spam-detection
+
+---
+
+## ▶️ Usage
+
+Run the model:
+python app6.py
+
+Enter email text and get prediction:
+
+* Spam
+* Not Spam
+
+---
+
+## 📊 Model Details
+
+* Algorithm: SVC
+* Feature Extraction: TF-IDF
+* Evaluation Metrics: Training Accuracy = 99%, Testing Accuracy = 97%, Precision = 96%
+
+---
+
+## 🔮 Future Improvements
+
+* Deploy as web app (Streamlit)
+* Add real-time email integration
+
+---
