@@ -47,7 +47,7 @@ email-spam-detection/
    git clone https://github.com/Sourav1000888/Email-Detection
 
 2. Navigate to project folder:
-   cd email-spam-detection
+   cd email-detection
 
 ---
 
