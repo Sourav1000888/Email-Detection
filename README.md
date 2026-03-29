@@ -27,8 +27,7 @@ and uses Natural Language Processing (NLP) techniques to process and analyze ema
 * NLP (TF-IDF Vectorizer, nltk)
 * streamlit
 
----
-
+```
 ## 📂 Project Structure
 
 email-spam-detection/
@@ -39,7 +38,7 @@ email-spam-detection/
 │── requirements.txt
 │── README.md
 
----
+```
 
 ## ⚙️ Installation
 
