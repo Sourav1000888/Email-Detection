@@ -67,6 +67,7 @@ Enter email text and get prediction:
 * Algorithm: SVC
 * Feature Extraction: TF-IDF
 * Evaluation Metrics: Training Accuracy = 99%, Testing Accuracy = 97%, Precision = 96%
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/eb942286-5563-4137-86b8-dc16b11bee8a" />
 
 ---
 
